@@ -90,10 +90,9 @@ const addUser = function (user) {
   .query(`INSERT INTO users (
     name, email, password) 
     VALUES (
-    $1, $2, $3);`, array)
+    $1, $2, $3) RETURNING *;`, array)
   .then((result) => {
-    // console.log(" --- RESULT --- : ", result.rows);
-    // return result.rows[0];
+    return result.rows[0];
   })
   .catch((err) => {
     console.log(err.message);
