@@ -20,11 +20,10 @@
 ## Screenshots of the Final Product
 
 - Main Page
-![Main Page](https://github.com/rlakhno/LightBnB/tree/main/LightBnB_WebApp/public/images/main-page.png)
+![Main Page](https://raw.githubusercontent.com/rlakhno/LightBnB/main/LightBnB_WebApp/public/images/main-page.png)
 
 - Create Listing
-![Create Listing](https://github.com/rlakhno/LightBnB/tree/main/LightBnB_WebApp/public/images/create-listing.png)
-
+![Create Listing](https://raw.githubusercontent.com/rlakhno/LightBnB/main/LightBnB_WebApp/public/images/create-listing.png)
 
 
 ## Project Structure
