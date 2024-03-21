@@ -227,10 +227,39 @@ if (options.minimum_price_per_night && options.maximum_price_per_night) {
  * @return {Promise<{}>} A promise to the property.
  */
 const addProperty = function (property) {
-  const propertyId = Object.keys(properties).length + 1;
-  property.id = propertyId;
-  properties[propertyId] = property;
-  return Promise.resolve(property);
+  // const propertyId = Object.keys(properties).length + 1;
+  // property.id = propertyId;
+  // properties[propertyId] = property;
+  // return Promise.resolve(property);
+  const array = [];
+  array.push(property.title);
+  array.push(property.description);
+  array.push(property.owner_id);
+  array.push(property.cover_photo_url);
+  array.push(property.thumbnail_photo_url);
+  array.push(property.cost_per_night);
+  array.push(property.parking_spaces);
+  array.push(property.number_of_bathrooms);
+  array.push(property.number_of_bedrooms);
+  array.push(property.province);
+  array.push(property.city);
+  array.push(property.country);
+  array.push(property.street);
+  array.push(property.post_code);
+  
+
+  return pool
+  .query(`INSERT INTO properties (
+    title, description, owner_id, cover_photo_url, thumbnail_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms,  province, city, country, street, post_code) 
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14);`, array)
+    .then((result) => {
+      return result.rows;
+    })
+    .catch((err) => {
+      console.error(err.message);
+      // Re-throwing the error for error handling further up the stack
+      throw err; 
+    })
 };
 
 module.exports = {
