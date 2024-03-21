@@ -1,10 +1,10 @@
 # LightBnB
-####  A straightforward multi-page Airbnb clone built with server-side JavaScript to showcase information retrieved through SQL queries on web pages. It simplifies the process of finding specific properties and accessing descriptions for all available properties. The application features user authentication with login and logout functionalities. Upon logging in, users gain access to their own listings and a list of reservations. Additionally, the app facilitates the creation of new listings
+#####  A straightforward multi-page Airbnb clone built with server-side JavaScript to showcase information retrieved through SQL queries on web pages. It simplifies the process of finding specific properties and accessing descriptions for all available properties. The application features user authentication with login and logout functionalities. Upon logging in, users gain access to their own listings and a list of reservations. Additionally, the app facilitates the creation of new listings
 
 ## Getting Started
 
 1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
-2. Clone your repository onto your local device.
+2. [Clone](https://github.com/rlakhno/LightBnB) your repository onto your local device.
 3. Install dependencies using the `npm install` command.
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:3000/>.
 4. Go to <http://localhost:3000/> in your browser.
@@ -20,10 +20,10 @@
 ## Screenshots of the Final Product
 
 - Main Page
-!["/public/images/mainView.png"](https://github.com/rlakhno/tweeter/blob/master/public/images/mainView.png)
+!["/public/images/main-page.png"](https://github.com/rlakhno/LightBnB/tree/main/LightBnB_WebApp/public/images/main-page.png)
 
 - Create Listing
-![/public/images/tabletView.png](https://github.com/rlakhno/tweeter/blob/master/public/images/tabletView.png)
+![/public/images/create-listing.png](https://github.com/rlakhno/LightBnB/tree/main/LightBnB_WebApp/public/images/create-listing.png)
 
 
 
