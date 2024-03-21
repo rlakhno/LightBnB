@@ -20,10 +20,10 @@
 ## Screenshots of the Final Product
 
 - Main Page
-!["/public/images/main-page.png"](https://github.com/rlakhno/LightBnB/tree/main/LightBnB_WebApp/public/images/main-page.png)
+![Main Page](https://github.com/rlakhno/LightBnB/tree/main/LightBnB_WebApp/public/images/main-page.png)
 
 - Create Listing
-![/public/images/create-listing.png](https://github.com/rlakhno/LightBnB/tree/main/LightBnB_WebApp/public/images/create-listing.png)
+![Create Listing](https://github.com/rlakhno/LightBnB/tree/main/LightBnB_WebApp/public/images/create-listing.png)
 
 
 
